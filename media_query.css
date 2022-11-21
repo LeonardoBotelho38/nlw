@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+:root{
+    --card-cor-secundaria: rgba(59, 196, 35, 0.677);
+}
+
+@media (min-width: 800px) {
+
+   #cards{
+    max-width: 670px;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+
+   h2{
+    color:var(--card-cor-secundaria);
+    border-color: var(--card-cor-secundaria);
+   }
+
+   .card{
+    border-bottom:2px solid var(--card-cor-secundaria);
+   }
+
+   body{
+    background-image: url(assets/bg-green.svg);
+   }
+
+}
